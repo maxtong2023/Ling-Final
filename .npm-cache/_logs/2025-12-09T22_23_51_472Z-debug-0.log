@@ -1,0 +1,17 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.9.3
+2 info using node@v22.20.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/maxtong/Documents/Websites/Ling Final/.npmrc
+5 silly config load:file:/usr/local/etc/npmrc
+6 verbose title npm run build
+7 verbose argv "run" "build"
+8 verbose logfile logs-max:10 dir:/Users/maxtong/Documents/Websites/Ling Final/.npm-cache/_logs/2025-12-09T22_23_51_472Z-
+9 verbose logfile /Users/maxtong/Documents/Websites/Ling Final/.npm-cache/_logs/2025-12-09T22_23_51_472Z-debug-0.log
+10 silly logfile done cleaning log files
+11 verbose cwd /Users/maxtong/Documents/Websites/Ling Final
+12 verbose os Darwin 24.5.0
+13 verbose node v22.20.0
+14 verbose npm  v10.9.3
+15 verbose exit 0
+16 info ok
