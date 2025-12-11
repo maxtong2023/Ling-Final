@@ -6,8 +6,8 @@
 5 silly config load:file:/usr/local/etc/npmrc
 6 verbose title npm run build
 7 verbose argv "run" "build"
-8 verbose logfile logs-max:10 dir:/Users/maxtong/Documents/Websites/Ling Final/.npm-cache/_logs/2025-12-11T18_33_19_691Z-
-9 verbose logfile /Users/maxtong/Documents/Websites/Ling Final/.npm-cache/_logs/2025-12-11T18_33_19_691Z-debug-0.log
+8 verbose logfile logs-max:10 dir:/Users/maxtong/Documents/Websites/Ling Final/.npm-cache/_logs/2025-12-11T22_15_03_323Z-
+9 verbose logfile /Users/maxtong/Documents/Websites/Ling Final/.npm-cache/_logs/2025-12-11T22_15_03_323Z-debug-0.log
 10 silly logfile start cleaning logs, removing 1 files
 11 silly logfile done cleaning log files
 12 verbose cwd /Users/maxtong/Documents/Websites/Ling Final

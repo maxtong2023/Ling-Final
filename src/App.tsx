@@ -183,23 +183,22 @@ function App() {
             <div className="text-block">
               <h3>What they did</h3>
               <p>
-                Tested popular hate speech datasets and classifiers on tweets, many written in African American English (AAE). Using a 59M tweet corpus with demographic alignment signals, they sampled AAE aligned vs. Standard American English (SAE) tweets and ran four major classifiers.
-              </p>
-              <p>
-                Two of the models, TWT HATEBASE and TWT BOOTSTRAP, mirror the Twitter hate speech pipelines we used. They compared outputs on matched content to isolate dialect effects.
-              </p>
-              <p>
-                They hand checked content to control for actual slurs, so differences reflect dialect, not more hate content.
+                A 2019 study done on machine learning models that analyze hate speech on Twitter, very similar to our study but viewed from a more sociolinguistic lens.
               </p>
             </div>
             <div className="text-block">
               <h3>What they found</h3>
               <p>
-                Tweets in AAE were far more likely to be labeled “toxic” than equivalent tweets in “standard” English, even when content lacked slurs. Dialect features (habitual “be,” copula absence, “finna,” “ion,” “talmbout”) became false signals for hate. Models flagged about 6 to 7 percent of AAE tweets as toxic versus about 2 to 3 percent of SAE tweets, a roughly two times bias even after controlling for slur content.
+                They found that machine learning models not only acquire racial bias from datasets, but they also exacerbate them. The researchers studied two machine learning models used for detecting Twitter hate speech called TWT-HATEBASE and TWT-BOOTSTRAP, and found that they both exhibited false flagging of toxicity at much higher rates for African Americans compared to White Americans.
               </p>
-              <p>False positives clustered on AAE markers, not on hateful content.</p>
               <p>
-                Models learned bias from data: AAE tweets misunderstood by annotators → labeled as more hateful → models treat AAE markers as toxicity → more AAE gets flagged. A feedback loop of mislabeling → model bias → platform penalties.
+                The models learn this behavior from the datasets themselves. Creating a feedback loop of AAE tweets being misunderstood by annotators, labeled as more hateful, which led the model to treat AAE as more toxic. AI models aren’t inherently racist, they grew to have bias from learned correlations such as AAE tendencies like copula deletion “She bad,” phonological spellings like “ion” or “talmbout”.
+              </p>
+            </div>
+            <div className="text-block">
+              <h3>Data that backs it up</h3>
+              <p>
+                When they ran the classifiers, tweets aligned with AAE were tagged as toxic roughly twice as often as tweets aligned with Standard American English, even when neither set contained slurs. Errors clustered on everyday AAE features rather than on hateful content. Reviewers who were not familiar with AAE grammar mislabeled these tweets, and the models simply learned those labels. It is a small example of how “garbage in, garbage out” becomes “bias in, bias amplified.”
               </p>
             </div>
             <div className="text-block">
